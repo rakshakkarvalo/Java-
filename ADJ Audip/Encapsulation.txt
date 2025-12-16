@@ -1,0 +1,48 @@
+Encapsulation :
+
+We cannot access the private members of the class directly outside the
+class. But we can give protected access by providing setters and getters.
+
+
+* A setter is a method that updates value of a variable.
+* A getter is a method that reads value of a variable.
+* Getter and setter are also known as accessor and mutator in java.
+
+
+
+Why setter and getter?
+
+* Setter and getter methods protect a variable value from the unexpected changes by outside world.
+
+* when a variable is hidden by private modifier and can be accessed only through getter and setter, it is encapsulated.
+
+* Encapsulation is one of the fundamental principles in OOP, thus implementing getter and setter is one of ways to enforce encapsulation in programs code.
+
+
+Naming Convention for getter and setter :
+
+The naming scheme of setter and getter should follow JAVA BEAN naming convention as follows:
+   getXXX() and setXXX()
+
+Where XXX is name of the variable
+
+
+Note :
+
+It is convention in java that the parameter names within a setter must be the same as the instance variable names.
+But if this done a name clash occurs, called as shadowing problem.
+To overcome this shadowing problem "this" keyword can be used..
+"this" is a keyword which is only associated with the instance variables.
+
+
+
+
+
+
+
+
+
+
+
+
+
